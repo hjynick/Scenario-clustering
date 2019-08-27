@@ -74,8 +74,9 @@ applied using auto-encoder to represent driving scenario features for anomaly pr
 
 The trained tensorflow Models([1-state](https://github.com/hjynick/Scenario-clustering/tree/master/Code/AEmodel_1st), [2-state](https://github.com/hjynick/Scenario-clustering/tree/master/Code/AEmodel_2st), [3-state](https://github.com/hjynick/Scenario-clustering/tree/master/Code/AEmodel_3st), [4-state](https://github.com/hjynick/Scenario-clustering/tree/master/Code/AEmodel_4st) are saved as AEmodel_xst, the basic structure of a 1-state Autoencoder model can be shown like:
 ![autoencoder](https://raw.githubusercontent.com/hjynick/Scenario-clustering/master/pic/autoencoder1st.jpg)
+
 [Model_training_1st](https://github.com/hjynick/Scenario-clustering/blob/master/Code/Model_training%20for%201st%20Scenario.ipynb), [Model_training_2st](https://github.com/hjynick/Scenario-clustering/blob/master/Code/Model_training%20for%202st%20Scenario.ipynb), [Model_training_3st](https://github.com/hjynick/Scenario-clustering/blob/master/Code/Model_training%20for%203st%20Scenario.ipynb) and [Model_training_4st](https://github.com/hjynick/Scenario-clustering/blob/master/Code/Model_training%20for%204st%20Scenario.ipynb) are for model training based on the TestRun1 data.
-The [Evaluation](https://github.com/hjynick/Scenario-clustering/blob/master/Code/Evaluation%20for%201%2C2%2C3%2C4_st%20using%20data%20for%20straight%20highway.ipynb) is for evaluate the performance of the model using TestRun2 data.
+The [Evaluation](https://github.com/hjynick/Scenario-clustering/blob/master/Code/Evaluation%20for%201%2C2%2C3%2C4_st%20using%20data%20for%20straight%20highway.ipynb) is for evaluating the performance of the model using TestRun2 data.
 
 ## License
 
