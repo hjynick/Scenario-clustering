@@ -89,7 +89,7 @@ Detectron is released under the [MIT license](https://github.com/hjynick/Scenari
 
 If you have questions or require any help, I am gladly at your disposal using the email listed below.
 jingyu.he@web.de
-## References
+## Some literatur about Scenario definition
 - [LANGNER, Jacob ; BACH, Johannes ; RIES, Lennart ; OTTEN, Stefan ; HOLZ, Marc ;SAX, Eric: Estimating the Uniqueness of Test Scenarios derived from RecordedReal-World-Driving-Data using Autoencoders. In:2018 IEEE Intelligent VehiclesSymposium (IV). Changshu, Suzhou, China, 2018. – ISBN 9781538644522, S.1860–1866](https://ieeexplore.ieee.org/document/8500464/)
 
 - [ULBRICH, Simon ; MENZEL, Till ; RESCHKA, Andreas ; SCHULDT, Fabian ; MAURER,Markus: Defining and Substantiating the Terms Scene , Situation , and Scenario forAutomated Driving. In:2015 IEEE 18th International Conference on IntelligentTransportation Systems, 2015, S. 982–988](https://www.ifr.ing.tu-bs.de/static/files/forschung/papers/download_pdf.php?id=859)
