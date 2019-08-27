@@ -85,7 +85,9 @@ Detectron is released under the [MIT license](https://github.com/hjynick/Scenari
 If you have questions or require any help, I am gladly at your disposal using the email listed below.
 jingyu.he@web.de
 ## References
+- [LANGNER, Jacob ; BACH, Johannes ; RIES, Lennart ; OTTEN, Stefan ; HOLZ, Marc ;SAX, Eric: Estimating the Uniqueness of Test Scenarios derived from RecordedReal-World-Driving-Data using Autoencoders. In:2018 IEEE Intelligent VehiclesSymposium (IV). Changshu, Suzhou, China, 2018. – ISBN 9781538644522, S.1860–1866](https://ieeexplore.ieee.org/document/8500464/)
+- [ULBRICH, Simon ; MENZEL, Till ; RESCHKA, Andreas ; SCHULDT, Fabian ; MAURER,Markus: Defining and Substantiating the Terms Scene , Situation , and Scenario forAutomated Driving. In:2015 IEEE 18th International Conference on IntelligentTransportation Systems, 2015, S. 982–988](https://www.ifr.ing.tu-bs.de/static/files/forschung/papers/download_pdf.php?id=859)
+- [SCHULDT, Fabian ; MAURER, Markus ; MENZEL, Till: Eine Methode fur dieZuordnung von Testf"allen für automatisierte Fahrfunktionen auf X-in-the-LoopVerfahren im modularen virtuellen Testbaukasten. In:10. WorkshopFahrerassistenzsysteme.Walting, Deutschland, 2015, S. 171–182](https://www.ifr.ing.tu-bs.de/static/files/forschung/papers/download_pdf.php?id=860)
+- [GEYER, Sebastian ; BALTZER, Marcel ; FRANZ, Benjamin ; HAKULI, Stephan ;KAUER, Michaela ; KIENLE, Martin ; MEIER, Sonja ; WEISSGERBER, Thomas ;BENGLER, Klaus ; BRUDER, Ralph ; FLEMISCH, Frank ; WINNER, Hermann:Concept and development of a unified ontology for generating test and use-casecatalogues for assisted and automated vehicle guidance. In:IET IntelligentTransport SystemsBd. 8, 2014. – ISSN 1751–956X, 183–189](https://ieeexplore.ieee.org/document/6818481)
+- [MENZEL, Till ; BAGSCHIK, Gerrit ; MAURER; MARKUS: Scenarios for Development,Test and Validation of Automated Vehicles. In:IEEE Intelligent VehiclesSymposium, ProceedingsBd. 2018-June, 2018. – ISBN 9781538644522, S.1821–1827](https://arxiv.org/abs/1801.08598)
 
-- [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440).
-  Ilija Radosavovic, Piotr Dollár, Ross Girshick, Georgia Gkioxari, and Kaiming He.
-  Tech report, arXiv, Dec. 2017.
