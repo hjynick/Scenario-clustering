@@ -1,6 +1,9 @@
 ﻿# Scenario clustering
 
 Scenario Clustering is a graduation design completed at the The Institute for Information Processing Technologies in Karlsruhe institute of Technology. It is written in Python and the Autoencoder part is powered by the [Tensorflow](https://github.com/tensorflow/tensorflow) deep learning framework.
+## Author
+* **Raphael Pfeffer** - *Mentor of the graduation design*
+* **Jingyu He** - *Student at KIT*
 
 ## Background
 
