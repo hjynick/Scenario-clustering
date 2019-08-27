@@ -50,7 +50,7 @@ The [Pipeline]([https://github.com/hjynick/Scenario-clustering/blob/master/Code/
 
 In the context of out meta-description concept, the format of the scenario should be a sequence what ever how lang it is. So in this consideration, one scenario should be one row of a matrix. The goal of the subsection is to extract the scenario data from the Raw data simulated with CarMaker in last section and return the output in form of matrix. For example, 10 1-state scenario should be a 10*7 matrix.
 
-The [CSV]([https://github.com/hjynick/Scenario-clustering/blob/master/Data/TestRun/TestRun1/ground_truth_label0.csv](https://github.com/hjynick/Scenario-clustering/blob/master/Data/TestRun/TestRun1/ground_truth_label0.csv)) Data is a example of the input data. and the [TXT](https://github.com/hjynick/Scenario-clustering/blob/master/Data/TestRun1_1st.txt) data is the expected form of the output data under our consideration.
+The [CSV](https://github.com/hjynick/Scenario-clustering/blob/master/Data/TestRun/TestRun1/ground_truth_label0.csv) Data is a example of the input data. and the [TXT](https://github.com/hjynick/Scenario-clustering/blob/master/Data/TestRun1_1st.txt) data is the expected form of the output data under our consideration.
 
 It should be noted that the loaded file address needs to be changed when it is running.
 ## Clustering
@@ -72,29 +72,18 @@ detected. To the best of our knowledge, this is the first time that a neural net
 applied using auto-encoder to represent driving scenario features for anomaly prediction.
 ![pipeline](https://raw.githubusercontent.com/hjynick/Scenario-clustering/master/pic/pipelinea.jpg)
 
+The trained Model([1-state](https://github.com/hjynick/Scenario-clustering/tree/master/Code/AEmodel_1st), [2-state](https://github.com/hjynick/Scenario-clustering/tree/master/Code/AEmodel_2st), [3-state](https://github.com/hjynick/Scenario-clustering/tree/master/Code/AEmodel_3st), [4-state](https://github.com/hjynick/Scenario-clustering/tree/master/Code/AEmodel_4st))
+
 ## License
 
 Detectron is released under the [MIT license](https://github.com/hjynick/Scenario-clustering/blob/master/LICENSE.md). 
 
 
-## Model Zoo and Baselines
-
-We provide a large set of baseline results and trained models available for download in the [Detectron Model Zoo](MODEL_ZOO.md).
-
-## Installation
-
-Please find installation instructions for Caffe2 and Detectron in [`INSTALL.md`](INSTALL.md).
-
-## Quick Start: Using Detectron
-
-After installation, please see [`GETTING_STARTED.md`](GETTING_STARTED.md) for brief tutorials covering inference and training with Detectron.
 
 ## Getting Help
 
-To start, please check the [troubleshooting](INSTALL.md#troubleshooting) section of our installation instructions as well as our [FAQ](FAQ.md). If you couldn't find help there, try searching our GitHub issues. We intend the issues page to be a forum in which the community collectively troubleshoots problems.
-
-If bugs are found, **we appreciate pull requests** (including adding Q&A's to `FAQ.md` and improving our installation instructions and troubleshooting documents). Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information about contributing to Detectron.
-
+If you have questions or require any help, I am gladly at your disposal using the email listed below.
+jingyu.he@web.de
 ## References
 
 - [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440).
