@@ -18,13 +18,13 @@ The complete work include three parts:
 ### The Data
 Because of the lack of data from the vehicles on the real road. We use the data from the simulation software CarMaker.
 The Raw data form the Carmaker look like this:
-![raw]([https://raw.githubusercontent.com/hjynick/Scenario-clustering/master/pic/raw.JPG](https://raw.githubusercontent.com/hjynick/Scenario-clustering/master/pic/raw.JPG)
+![raw](https://raw.githubusercontent.com/hjynick/Scenario-clustering/master/pic/raw.JPG)
 The first three columns indicate the time steps and speed information of ego car. For ’ego.long’, ’-1’, ’0’, ’1’ means ’decelerate’, ’constant tempo’ and ’accelerate’ respectively. For ’ego.lat’, ’-1’, ’0’, ’1’ means ’left lane change’, ’no lane change’ and ’right lane change’ respectively. The following columns are speed and state information for all the object vehicles. For example, ’0.long’ and ’0.lat’ provide the speed information like ego car, and ’0st.long’ and ’0st.lat’ indicate the position relative to the ego in our concept. Here should be noted that state ’-99’ indicates ’not detected’, which means that this vehicle has not appeared within the 205m range of the ego car.
 
 ### The Concept
 Each of the nine grids surrounding the ego-vehicle is described with a
 2 digits tuple. The first digit with -1, 0, 1 indicates respectively the front, the same level and the behind position, and the second digit with -1, 0, 1 indicates respectively the left lane, the same lane and the right lane positions.
-![Concept]([https://raw.githubusercontent.com/hjynick/Scenario-clustering/master/pic/concept.JPG](https://raw.githubusercontent.com/hjynick/Scenario-clustering/master/pic/concept.JPG)
+![Concept](https://raw.githubusercontent.com/hjynick/Scenario-clustering/master/pic/concept.JPG)
 
 
 Additional Scenario Concept are more complex and include more items, they can be difficult implemented. There are not a clear solution sofar. For more details about these models, please see [References](#references) below.
