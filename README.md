@@ -58,7 +58,7 @@ The ultimate goal of Scenario clustering is to find the similar scenario in test
 
 K-Means and the DBSCAN will be implemented with different combinations of hyper-parameters, which the hyper-parameter of K-Means is the number of clusters "k" and of DBSCAN and the neighborhood size "eps" and the minimal number of samples in each cluster "minsamples".
 
-A example of Kmeans Clustering can be seen as this [1 state scenario using K-means](https://github.com/hjynick/Scenario-clustering/blob/master/Code/Clustering_kmeans_1st.ipynb) and the example of DBSCAN Clustering can be seen as this [1 state scenario using DBSCAN]([https://github.com/hjynick/Scenario-clustering/blob/master/Code/Clustering%20DBSCAN1st.ipynb](https://github.com/hjynick/Scenario-clustering/blob/master/Code/Clustering%20DBSCAN1st.ipynb)).
+A example of Kmeans Clustering can be seen as this [1 state scenario using K-means](https://github.com/hjynick/Scenario-clustering/blob/master/Code/Clustering_kmeans_1st.ipynb) and the example of DBSCAN Clustering can be seen as this [1 state scenario using DBSCAN](https://github.com/hjynick/Scenario-clustering/blob/master/Code/Clustering%20DBSCAN1st.ipynb).
 
 ## Autoencoder
 In order to achieve a complete test coverage for automated vehicles, test scenario with new features and special content should be added to the existing test scenario data pool. For this purpose, first the unknown scenario with regard to the existing scenarios should
@@ -86,8 +86,12 @@ If you have questions or require any help, I am gladly at your disposal using th
 jingyu.he@web.de
 ## References
 - [LANGNER, Jacob ; BACH, Johannes ; RIES, Lennart ; OTTEN, Stefan ; HOLZ, Marc ;SAX, Eric: Estimating the Uniqueness of Test Scenarios derived from RecordedReal-World-Driving-Data using Autoencoders. In:2018 IEEE Intelligent VehiclesSymposium (IV). Changshu, Suzhou, China, 2018. – ISBN 9781538644522, S.1860–1866](https://ieeexplore.ieee.org/document/8500464/)
+
 - [ULBRICH, Simon ; MENZEL, Till ; RESCHKA, Andreas ; SCHULDT, Fabian ; MAURER,Markus: Defining and Substantiating the Terms Scene , Situation , and Scenario forAutomated Driving. In:2015 IEEE 18th International Conference on IntelligentTransportation Systems, 2015, S. 982–988](https://www.ifr.ing.tu-bs.de/static/files/forschung/papers/download_pdf.php?id=859)
+
 - [SCHULDT, Fabian ; MAURER, Markus ; MENZEL, Till: Eine Methode fur dieZuordnung von Testf"allen für automatisierte Fahrfunktionen auf X-in-the-LoopVerfahren im modularen virtuellen Testbaukasten. In:10. WorkshopFahrerassistenzsysteme.Walting, Deutschland, 2015, S. 171–182](https://www.ifr.ing.tu-bs.de/static/files/forschung/papers/download_pdf.php?id=860)
+
 - [GEYER, Sebastian ; BALTZER, Marcel ; FRANZ, Benjamin ; HAKULI, Stephan ;KAUER, Michaela ; KIENLE, Martin ; MEIER, Sonja ; WEISSGERBER, Thomas ;BENGLER, Klaus ; BRUDER, Ralph ; FLEMISCH, Frank ; WINNER, Hermann:Concept and development of a unified ontology for generating test and use-casecatalogues for assisted and automated vehicle guidance. In:IET IntelligentTransport SystemsBd. 8, 2014. – ISSN 1751–956X, 183–189](https://ieeexplore.ieee.org/document/6818481)
+
 - [MENZEL, Till ; BAGSCHIK, Gerrit ; MAURER; MARKUS: Scenarios for Development,Test and Validation of Automated Vehicles. In:IEEE Intelligent VehiclesSymposium, ProceedingsBd. 2018-June, 2018. – ISBN 9781538644522, S.1821–1827](https://arxiv.org/abs/1801.08598)
 
