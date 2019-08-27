@@ -14,7 +14,7 @@ The complete work include three parts:
 - The data precessing pipeline.
 - The Clustering implementation.
 - The Autoencoder implementation.
-- 
+ 
 ### The Data
 Because of the lack of data from the vehicles on the real road. We use the data from the simulation software CarMaker.
 The Raw data form the Carmaker look like this:
@@ -63,15 +63,18 @@ A example of Kmeans Clustering can be seen as this [1 state scenario using K-mea
 ## Autoencoder
 In order to achieve a complete test coverage for automated vehicles, test scenario with new features and special content should be added to the existing test scenario data pool. For this purpose, first the unknown scenario with regard to the existing scenarios should
 be detected, at the same time, scenarios that have a certain similarity degree to the existing scenarios should be filtered and abandoned.
-
-## Update
-
-- 4/2018: Support Group Normalization - see [`GN/README.md`](./projects/GN/README.md)
+To assess the possibility of this approach, we conducted a pilot experiment on the
+existing dataset based on the scenario concept in this thesis. In this experiment, the
+unknown data that has a different feature with respect to the existing dataset need to
+be detected, this is where auto-encoder comes in. The scenario data from [TestRun 1](https://github.com/hjynick/Scenario-clustering/tree/master/Data/TestRun/TestRun1)
+in CarMaker is set as the training data and the data from the [TestRun 2](https://github.com/hjynick/Scenario-clustering/tree/master/Data/TestRun/TestRun2) is used to be
+detected. To the best of our knowledge, this is the first time that a neural network model is
+applied using auto-encoder to represent driving scenario features for anomaly prediction.
+![pipeline](https://raw.githubusercontent.com/hjynick/Scenario-clustering/master/pic/pipelinea.jpg)
 
 ## License
 
-Detectron is released under the [Apache 2.0 license](https://github.com/facebookresearch/detectron/blob/master/LICENSE). See the [NOTICE](https://github.com/facebookresearch/detectron/blob/master/NOTICE) file for additional details.
-
+Detectron is released under the [MIT license](https://github.com/hjynick/Scenario-clustering/blob/master/LICENSE.md). 
 
 
 ## Model Zoo and Baselines
